@@ -53,5 +53,5 @@ console.log(doNotation.run(bindMaybe, function() {
 console.log(doNotation.run(bindList, function() {
   var x = ["first", "second"];
   var y = ["once", "twice"];
-  return x + " cousin " + y + " removed ";
+  return [x + " cousin " + y + " removed "];
 }));
