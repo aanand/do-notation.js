@@ -1,0 +1,8 @@
+{
+  "name": "do-notation",
+  "version": "0.1.0",
+  "dependencies": {
+    "esprima":   "~> 0.9.9",
+    "escodegen": "~> 0.0.4"
+  }
+}
