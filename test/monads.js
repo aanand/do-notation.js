@@ -1,5 +1,5 @@
 var assert     = require('assert'),
-    doNotation = require('../do-notation');
+    doNotation = require('../lib/do-notation');
 
 describe('the identity monad', function() {
   var bind = function(obj, fn) { return fn(obj) };
